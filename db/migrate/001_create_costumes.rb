@@ -1,3 +1,22 @@
+class CreateCostumes << ActiveRecord::Migration[4.2]
+  
+ # def change
+  #   create_table :costumes do |t|
+  #     t.text :name
+  #     t.float :price
+  #     t.text :size
+  #     t.string :imageurl
+  # 
+  #   end
+    
+  # end 
+  
+end
+
+# ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/costumes.sqlite")
+
+
+
 # Create a class and inherit from ActiveRecord::Migration
 
 # By convention, the class name should match the part of the
