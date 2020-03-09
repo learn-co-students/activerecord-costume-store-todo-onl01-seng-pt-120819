@@ -17,7 +17,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
   end
 end
 
-ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/costumes.sqlite")
+# ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/costumes.sqlite")
 
 
 

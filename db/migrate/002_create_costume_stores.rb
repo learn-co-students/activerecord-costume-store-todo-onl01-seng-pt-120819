@@ -1,5 +1,3 @@
-# Create your costume_stores migration here
-
 class CreateCostumeStores < ActiveRecord::Migration[4.2]
 
   def change
@@ -9,8 +7,8 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.integer :costume_inventory
       t.integer :employees
       t.boolean :active
-      t.string :opening_time
-      t.string :closing_time
+      t.datetime :opening_time
+      t.datetime :closing_time
     end
   end
   
@@ -22,4 +20,4 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
 end
 
 
-ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/costume_stores.sqlite")
+# ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/costume_stores.sqlite")
