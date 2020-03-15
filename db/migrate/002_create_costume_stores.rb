@@ -18,3 +18,11 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
     end
 
 end
+
+# has a name
+# has a location
+# has a costume inventory
+# has an employees count
+# knows if it's still in business or permanently closed
+# has an opening time
+# has a closing time

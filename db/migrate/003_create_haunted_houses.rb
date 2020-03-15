@@ -18,3 +18,12 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.2]
     end
 
 end
+
+# has a name
+# has a location
+# has a theme
+# has a price
+# knows if it's family friendly
+# has an opening date
+# has a closing date
+# has a long, long description

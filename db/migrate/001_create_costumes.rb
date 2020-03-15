@@ -21,3 +21,10 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
         end
     end
 end
+
+# has a name
+# has a price
+# has an image url
+# has a size
+# knows when it was created
+# knows when it was last updated
